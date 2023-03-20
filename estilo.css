@@ -1,0 +1,88 @@
+body {background-color:bisque; 
+    background-image: url("Flower\ 2.png");
+}
+
+header {background-color: lavender; 
+    text-align: center;
+    margin: 50px 50px 10px 50px; 
+    padding: 10px 10px 10px 10px; 
+    border: groove black;
+}
+
+#navv {background-color:lavender; 
+    border: groove black; 
+    font-size: 20px;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+#slideSource {
+    opacity: 0;
+    transition: opacity 5s; 
+  }
+  
+#slideSource.fade {
+opacity: 1;
+}
+
+#slideSource1 {
+    opacity: 0;
+    transition: opacity 1s; 
+  }
+  
+#slideSource1.fade {
+opacity: 1;
+}
+
+article{background-color: lavender; 
+    margin: 5px 50px 50px 50px;
+    border: groove black; 
+}
+
+footer{background-color: lavender; 
+    margin: 5px 50px 50px 50px;
+    border: groove black;
+    padding-bottom: 25px; 
+    text-align: center;
+}
+
+nav p {font-size: 25px;
+}
+
+ul {font-weight: bolder; 
+    border: double black 5px;
+    padding: 5px 5px 5px 20px;
+}
+h1 {font-weight: normal;
+    padding-top: 100px;
+}
+
+h2 {padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li{font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sect{background-color: lavender; 
+    border: groove black; 
+}
+
+section{padding-bottom: 50px;
+}
+
+audio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#im{margin-right: 20px;
+    margin-left: 20px;
+}
+
+* {box-sizing: border-box;}
